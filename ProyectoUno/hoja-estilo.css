@@ -1,0 +1,110 @@
+h1 {
+    font-size: 45pt;
+    margin-bottom: -5pt;
+    padding-bottom: 2pt;
+    color: #ff0000;
+}
+
+h2 {
+    margin-top: 2pt;
+    color: fuchsia;
+    text-decoration-style: dotted;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+}
+
+body{
+    background-image: url(fondos/fondohtml.jpg);
+    background-repeat: repeat;
+}
+
+#miP1 {
+    color: orange;
+    font-size: 20pt;
+    font-family: Arial;
+}
+#miP2 {
+    color: darkorange;
+    font-size: 20pt;
+    font-family: Arial;
+
+}
+
+#women {
+    background:honeydew;
+    color: fuchsia;
+    opacity: 0.76;
+    margin-bottom: 10px;
+}
+#men{
+    background:honeydew;
+    color: fuchsia;
+    opacity: 0.76;
+}
+
+#kids{
+    background:honeydew;
+    color: fuchsia;
+    opacity: 0.76;
+}
+#footer{
+    text-align: right;
+    background:greenyellow;
+}
+
+
+#menu{
+    width: 100%;
+}
+
+#parrafo-presidentes {
+    height: 40%;
+    overflow: scroll;
+}
+
+    .bali-warning {
+    color:#ff0000;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.barra-alterna {
+    color:#0000ff;
+    font-size: 16pt;
+    text-align: right;
+    font-weight: lighter;
+}
+
+.tablas-principales, .tablas-principales table{
+    color:deeppink;
+    text-align: center;
+    opacity: 0.76;
+    background:limegreen;
+    font-size: 20pt;
+    width: 25%;
+    float: left;
+}
+
+.tablas-principales table tbody tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+.tablas-principales table tbody tr:nth-child(even){
+    background-color: deepskyblue;
+}
+
+.tablas-principales table{
+    width: 100%;
+}
+.tablas-principales table tfoot{
+    text-align: right;
+    font-size: 14pt;
+    color: #ff0000;
+}
+
+.contenido{
+    width: 75%;
+    height: 100%;
+    float: right;
+}
